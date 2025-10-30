@@ -1,4 +1,3 @@
- 
 *{
     margin:0 ;
     padding: 0;
@@ -9,7 +8,8 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     color: #333;
     background: linear-gradient(35deg, #e9ecef, #df7ec7);
-} 
+}
+
 .container{
     background-color:floralwhite;
     max-width: 1100px;
@@ -19,16 +19,17 @@ body{
     box-shadow: 0px 4px 12px rgba(0, 0,0, 5);
 
 }
+
 .header{
     text-align: center;
     margin-bottom: 24px;
 }
 
 header img{
-    width: 300px;
+    width: 200px;
     margin:0 auto;
+   
 }
-
 
 .header h1{
     font-size: 1.4rem;
@@ -36,9 +37,22 @@ header img{
 }
 
 .feature-img{
-    margin: 20px;
+    margin: 20px auto;
+    text-align: center;
 }
 
 .feature-img figure img{
-    width: 100%;
+    width: 500px;
 }
+
+.biografia h2{
+    border-left: 5px solid #9c0978;
+    padding: 10px;
+    margin: 15px auto;
+    font-size: 1.6rem;
+}
+
+.biografia p{
+    margin: 20px 0px;
+} 
+
