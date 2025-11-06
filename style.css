@@ -17,7 +17,6 @@ body{
     padding: 20px;
     border-radius: 12px;
     box-shadow: 0px 4px 12px rgba(0, 0,0, 5);
-
 }
 
 .header{
@@ -28,7 +27,6 @@ body{
 header img{
     width: 200px;
     margin:0 auto;
-   
 }
 
 .header h1{
@@ -55,4 +53,54 @@ header img{
 .biografia p{
     margin: 20px 0px;
 } 
+.citacao{
+background-color: hsl(324, 36%, 72%);
+border-left: 6px #df7ec7;
+border-radius: 05px;
+width: 600px;
+padding: 20px;
+margin: 10px auto;
+}
 
+.citacao blockquote{
+    color: #000000;
+    font-style:italic;
+    font-size: 1.1rem;
+}
+
+.citacao p {
+color: #000000;
+margin-top: 20px;
+font-size: 1rem;
+font-style: normal;
+}
+
+.curiosidades{
+    padding: 20px;
+}
+
+.curiosidades h2{
+    padding: 00px;
+    margin: 08px auto;
+    font-size: 1.7rem; 
+}
+
+.curiosidades ul{
+    list-style: square inside;
+    padding-left: 20px;
+}
+
+.curiosidades li{
+    margin: 15px 0;
+    color: #444;
+}
+
+footer{
+    text-align: center;
+    margin-top: 1.8rem;
+}
+
+footer h2{
+    padding: 03px;
+    font-size: 1.7rem;
+}
